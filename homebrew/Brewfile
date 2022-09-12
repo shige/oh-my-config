@@ -8,6 +8,7 @@ tap "idleberg/dbxcli"
 tap "sqldef/sqldef"
 brew "jpeg", link: true
 brew "webp"
+brew "asdf"
 brew "glib"
 brew "direnv"
 brew "unbound"
