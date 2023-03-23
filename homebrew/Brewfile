@@ -17,6 +17,7 @@ brew "harfbuzz"
 brew "jpeg", link: true
 brew "libass"
 brew "ffmpeg"
+brew "gh"
 brew "ghostscript"
 brew "python@3.10"
 brew "gobject-introspection"
