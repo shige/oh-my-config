@@ -34,6 +34,7 @@ BASE_DIR="${HOME}/works/${OWNER}/${REPO_NAME}"
 SUBDIRS=(
   claude-code
   cline
+  codex
   cursor
   github-copilot
   openai-codex
