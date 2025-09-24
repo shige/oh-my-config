@@ -32,13 +32,15 @@ BASE_DIR="${HOME}/works/${OWNER}/${REPO_NAME}"
 
 # List of subdirectories to create under worktree
 SUBDIRS=(
-  claude-code
+  base
+  claude
   cline
   codex
   cursor
+  gemini
   github-copilot
-  openai-codex
   roo-code
+  security
   vscode
   windsurf
   zed
