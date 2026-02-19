@@ -7,7 +7,7 @@ macOS development environment configuration managed in one place.
 ### Homebrew
 
 ```bash
-bash homebrew/install.sh
+brew bundle --file homebrew/Brewfile
 ```
 
 ### mise (Runtime Version Manager)
