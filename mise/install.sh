@@ -16,4 +16,8 @@ mise trust "${MISE_CONFIG_DIR}/config.toml"
 echo "Installing tools"
 mise install
 
+echo "Installing Claude Code"
+# https://code.claude.com/docs/en/setup#installation
+curl -fsSL https://claude.ai/install.sh | bash
+
 echo "Done"
