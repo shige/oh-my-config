@@ -16,6 +16,12 @@ mise trust "${MISE_CONFIG_DIR}/config.toml"
 echo "Installing tools"
 mise install
 
+echo "Installing AWS CLI"
+# https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+curl -fsSL "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "/tmp/AWSCLIV2.pkg"
+sudo installer -pkg /tmp/AWSCLIV2.pkg -target /
+rm -f /tmp/AWSCLIV2.pkg
+
 echo "Installing Claude Code"
 # https://code.claude.com/docs/en/setup#installation
 curl -fsSL https://claude.ai/install.sh | bash
