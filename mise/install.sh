@@ -26,4 +26,7 @@ echo "Installing Claude Code"
 # https://code.claude.com/docs/en/setup#installation
 curl -fsSL https://claude.ai/install.sh | bash
 
+echo "Setting up Git commit signing"
+bash "${SCRIPT_DIR}/setup-git-signing.sh"
+
 echo "Done"
