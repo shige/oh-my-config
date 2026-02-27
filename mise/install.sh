@@ -26,6 +26,10 @@ echo "Installing Claude Code"
 # https://code.claude.com/docs/en/setup#installation
 curl -fsSL https://claude.ai/install.sh | bash
 
+echo "Installing Gemini CLI security extension"
+# https://codenote.net/en/posts/gemini-cli-security-extension/
+gemini extensions install https://github.com/gemini-cli-extensions/security
+
 echo "Setting up Git commit signing"
 bash "${SCRIPT_DIR}/setup-git-signing.sh"
 
