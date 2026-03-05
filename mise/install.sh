@@ -30,6 +30,10 @@ echo "Installing Gemini CLI security extension"
 # https://codenote.net/en/posts/gemini-cli-security-extension/
 gemini extensions install https://github.com/gemini-cli-extensions/security
 
+echo "Installing CodeRabbit CLI"
+# https://www.coderabbit.ai/ja/cli
+curl -fsSL https://cli.coderabbit.ai/install.sh | sh
+
 echo "Setting up Git commit signing"
 bash "${SCRIPT_DIR}/setup-git-signing.sh"
 
